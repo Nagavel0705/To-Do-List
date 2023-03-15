@@ -1,0 +1,136 @@
+html {  
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
+  min-height: 1000px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow:visible;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #A683E3;
+  text-align: center;
+}
+
+.item {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #A683E3;
+}
+
+input[type="checkbox"] {
+  margin-left: 25px;
+  margin-right: 40px;
+  margin-top: 7px;
+}
+
+p {
+  margin: 0;
+  padding: 15px 0px 15px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form .newitem {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.submit {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-left: 15px;
+  border-width: 0;
+}
+
+.reset{
+  min-height: 70px;
+  width: 150px;
+  margin: 0px 0px 30px 0px;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+  margin-left: -50px;
+}
+
+footer {
+  position:static;
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* CSS FOR CREATING A CUSTOM SCROLLBAR
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+/* Customize the scrollbar track and thumb */
+body::-webkit-scrollbar-track {
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);  
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #893dd1;
+  border-radius: 20px;
+}
+
+/* Add hover effects to the scrollbar thumb */
+body::-webkit-scrollbar-thumb:hover {
+  background-color:  #b683e9;
+}
