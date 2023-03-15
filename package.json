@@ -8,6 +8,9 @@
   },
   "author": "Nezz",
   "license": "ISC",
+  "engines": {
+    "node": "16.14.2"
+  },
   "dependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.3",
